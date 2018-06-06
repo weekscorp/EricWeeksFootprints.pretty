@@ -1,0 +1,19 @@
+(module SMA_Edge_SinglePad placed (layer F.Cu) (tedit 5AE87A3B)
+  (fp_text reference "" (at -3.683 -6.604) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "" (at 0 -7.874) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at 1.2827 0) (size 1.27 2.032) (layers F.Cu F.Mask))
+  (model ${KIPRJMOD}/shapes3D/SMA_Flange_Socket.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model J:/basebandAmp/shapes3D/SMA_Flange_Socket.stp
+    (offset (xyz -10.41399984359741 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
