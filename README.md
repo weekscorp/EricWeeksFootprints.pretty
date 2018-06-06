@@ -1,0 +1,1 @@
+# EricWeeksFootprints.pretty
